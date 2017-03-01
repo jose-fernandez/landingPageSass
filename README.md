@@ -1,5 +1,5 @@
 # LandingPage
-  Landing Page with Sass and Ionicons
+  Landing Page with Sass , Bootstrap and Ionicons
 
 # To change .scss
   write in the Terminal when you finish style.scss edition to overwrite style.css:                                             
