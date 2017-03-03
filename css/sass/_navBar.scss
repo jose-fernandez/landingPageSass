@@ -1,0 +1,103 @@
+
+
+.wide-space {
+  letter-spacing: 1.6px;
+}
+
+.icon-lg {
+  font-size: 50px;
+  line-height: 18px;
+}
+
+.bg-primary {
+  background-color: #333;
+}
+
+.bg-dark {
+  color: #eee;
+  background-color: #222;
+}
+
+.cursive {
+  font-family: 'Dancing Script', cursive;
+  text-transform: none;
+}
+
+.text-faded {
+  color: rgba(245, 245, 245, 0.7);
+}
+
+.text-dark {
+  color: #111;
+}
+
+.text-primary {
+  color: $color-main;
+}
+
+.modal-content {
+  background-color: #1d1d1d;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.navbar-default {
+  border-color: rgba(35, 35, 35, 0.05);
+  font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+  background-color: #222;
+  @include transition-box(.4s)
+}
+
+.navbar-header > .navbar-brand {
+  font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
+  color: $color-main;
+  padding: 15px;
+  -webkit-transition: padding .2s ease-in;
+  -moz-transition: padding .2s ease-in;
+  transition: padding .2s ease-in;
+  &:hover, &:focus {
+    color: #FC532F;
+  }
+}
+
+.navbar-default {
+  .navbar-toggle {
+    &:focus, &:hover {
+      background-color: #181818;
+    }
+    border-color: transparent;
+  }
+  .navbar-collapse {
+    @extend .navbar-toggle;
+  }
+  .nav > li {
+    > a {
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 700;
+      color: #eee;
+      &:focus {
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        color: #eee;
+      }
+      &:hover, &:focus:hover {
+        color: $color-main;
+      }
+    }
+    &.active > a {
+      color: $color-main !important;
+      background-color: transparent;
+      &:focus {
+        color: $color-main !important;
+        background-color: transparent;
+      }
+      &:hover, &:focus:hover {
+        background-color: transparent;
+      }
+    }
+  }
+}

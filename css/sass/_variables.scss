@@ -1,0 +1,15 @@
+$color-main:#FF843F;
+$shadows: 1px 1px 1px rgba(60, 60, 60, 0.7);
+
+@mixin transition-box ($s){
+    -webkit-transition: all $s;
+  	-moz-transition: all $s;
+  	transition: all $s;
+}
+
+@mixin btn{
+	border-color: #fff;
+  	background-color: #fff;
+  	opacity: 0.7;
+}
+
